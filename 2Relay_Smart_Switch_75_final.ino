@@ -22,8 +22,8 @@ const int relayNamesStartAddr = 0;              // Starting address for relay na
 const int relaySchedulesStartAddr = relayNamesStartAddr + (NUM_RELAYS * NAME_SIZE); 
 
 // Wi-Fi credentials
-const char* ssid = "Kaushiik's iPhone";
-const char* password = "15052023";
+const char* ssid = "YOUR_WIFI_ID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org", 19800, 60000);  // Time sync
